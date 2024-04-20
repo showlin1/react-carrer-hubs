@@ -1,9 +1,15 @@
+import Banner from "../Banner/Banner";
+import CatagoriList from "../CatagoriList/CatagoriList";
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 
 
 const Home = () => {
     return (
         <div>
-            <h2>This is Home</h2>
+            <Banner></Banner>
+            <CatagoriList></CatagoriList>
+            <FeaturedJobs></FeaturedJobs>
+            
         </div>
     );
 };
